@@ -1,0 +1,15 @@
+- name: Resources
+  sublink: true
+  sublinks:
+   - sublink_name: Brushes for Photoshop
+     sublink_addr: /photoshop-brushes.html
+   - sublink_name: Brushes for Clip Studio Paint
+     sublink_addr: /csp-brushes.html
+   - sublink_name: Tips and Tricks Videos
+     sublink_addr: /tips-and-tricks-videos.html
+- name: News
+  link: /news.html
+  sublink: false
+- name: Blog
+  link: /blog/
+  sublink: false

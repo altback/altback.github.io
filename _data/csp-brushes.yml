@@ -1,0 +1,36 @@
+# Under each heading there is an option to embedd a video either from youtube or vimeo.
+# Use the value 'youtube' for youtube video or 'vimeo' for vimeo video in front of 'videotype:'. Note- values are case-sensitive
+# For example, for embeding a youtube video the code might look like below
+# videotype: youtube
+# After putting the appropriate value in front of 'videotype:'. We need to extract the 'VideoID:' from the video URL.
+# For example here is video URL of our sample video uploaded on youtube: https://www.youtube.com/watch?v=Ka8QpnRUAhA
+# It could be in the form of https://youtu.be/Ka8QpnRUAhA
+# VideoID in this case is Ka8QpnRUAhA
+# we just need to enter the videoID from the video link.
+- videotitle: Pencil Brush Pack [BETA] for CSP
+  videodescription: This Brush set for Manga Studio 5/Clip Studio Paint contains a total of 2 Brushes (.sut format) in a zipped folder.
+  resource-type: Free
+  app-tested: Clip Studio Paint EX
+  download-links:
+   - link: <a href="https://www.deviantart.com/altback/art/Altback-s-Pencil-Brush-Pack-BETA-for-CSP-644753525" rel="nofollow">Download from DeviantArt</a>
+  videotype: youtube
+  videoID: fCkJAHD56Vk
+
+- videotitle: Inking Brush for Clip Studio Paint
+  videodescription: This is a single brush with texture. Brush file is in .SUT format in a zipped folder.
+  resource-type: Premium
+  app-tested: Clip Studio Paint EX
+  download-links:
+   - link: <a href="https://www.deviantart.com/altback/art/Inking-Brush-textured-for-Clip-Studio-Paint-678783930" rel="nofollow">Download from DeviantArt</a>
+   - link: <a href="https://gumroad.com/l/InkingBrushCSP" rel="nofollow">Download from Gumroad</a>
+  videotype: youtube
+  videoID: 4j9OyiwcapM
+
+- videotitle: Inking Brush for Clip Studio Paint - ver2.0
+  videodescription: This is a single brush with texture. Brush file is in .SUT format in a zipped folder. The brush is little different from its predecessor, it gives a feel of the natural brush lines which we get after scanning a traditional piece. It works best at brush size 20.0 or lower.
+  resource-type: Premium
+  app-tested: Clip Studio Paint EX
+  download-links:
+   - link: <a href="https://www.deviantart.com/altback/art/Inking-Brush-for-Clip-Studio-Paint-ver2-0-764457485" rel="nofollow">Download from DeviantArt</a>
+  videotype: youtube
+  videoID: fLuddQ_eMpk

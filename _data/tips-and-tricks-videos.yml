@@ -1,0 +1,48 @@
+# Under each heading there is an option to embedd a video either from youtube or vimeo.
+# Use the value 'youtube' for youtube video or 'vimeo' for vimeo video in front of 'videotype:'. Note- values are case-sensitive
+# For example, for embeding a youtube video the code might look like below
+# videotype: youtube
+# After putting the appropriate value in front of 'videotype:'. We need to extract the 'VideoID:' from the video URL.
+# For example here is video URL of our sample video uploaded on youtube: https://www.youtube.com/watch?v=Ka8QpnRUAhA
+# It could be in the form of https://youtu.be/Ka8QpnRUAhA
+# VideoID in this case is Ka8QpnRUAhA
+# we just need to enter the videoID from the video link.
+- videotitle: Eraser/Drawing mode for 'One by Wacom/CTL-671'
+  videodescription: A quick tip on how to set the buttons of the 'One by Wacom' pen to drawing/eraser toggle mode.
+  resource-type:
+  app-tested:
+  download-links:
+#   - link:
+#   - link:
+  videotype: youtube
+  videoID: nMi2ss4lDjM
+
+- videotitle: Getting Pressure Sensitivity to work with Adobe Illustrator
+  videodescription: A quick tip about how to draw with the Wacom tablet (or any other tablet which supports pressure sensitivity) in Adobe Illustrator.
+  resource-type:
+  app-tested:
+  download-links:
+#   - link:
+#   - link:
+  videotype: youtube
+  videoID: 5_tE-XbGjdQ
+
+- videotitle: Exporting a PSD from Clip Studio Paint
+  videodescription: The video explains how to export a PSD from Clip Studio Paint. The video covers exporting files in Single-layer and-Multi-layers.
+  resource-type:
+  app-tested:
+  download-links:
+#   - link:
+#   - link:
+  videotype: youtube
+  videoID: 7fl5uQ3h_P0
+
+- videotitle: Importing a Brush in Clip Studio Paint
+  videodescription: This video demonstrates how to import a brush in Clip Studio Paint.
+  resource-type:
+  app-tested:
+  download-links:
+#   - link:
+#   - link:
+  videotype: youtube
+  videoID: LzPsFZ9CMh4

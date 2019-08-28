@@ -1,0 +1,28 @@
+# Under each heading there is an option to embedd a video either from youtube or vimeo.
+# Use the value 'youtube' for youtube video or 'vimeo' for vimeo video in front of 'videotype:'. Note- values are case-sensitive
+# For example, for embeding a youtube video the code might look like below
+# videotype: youtube
+# After putting the appropriate value in front of 'videotype:'. We need to extract the 'VideoID:' from the video URL.
+# For example here is video URL of our sample video uploaded on youtube: https://www.youtube.com/watch?v=Ka8QpnRUAhA
+# It could be in the form of https://youtu.be/Ka8QpnRUAhA
+# VideoID in this case is Ka8QpnRUAhA
+# we just need to enter the videoID from the video link.
+- videotitle: Marker/Shading Brush (Photoshop)
+  videodescription: Marker/Shading Brush for Photoshop. This Toolset for photoshop contains a single brush in both .ABR and .TPL format.
+  resource-type: Free
+  app-tested: Photoshop CS6
+  download-links:
+   - link: <a href="https://www.deviantart.com/altback/art/Marker-Shading-Brush-Photoshop-592868436" rel="nofollow">Download from DeviantArt</a>
+   - link: <a href="https://gumroad.com/l/MkShdALT" rel="nofollow">Download from Gumroad</a>
+  videotype: youtube
+  videoID: aXPGYzeTgxU
+
+- videotitle: Pencil Brush Toolset Ver 1.0 (Photoshop)
+  videodescription: This Toolset for photoshop contains a total of 6 Brushes in both .ABR and .TPL format.
+  resource-type: Premium
+  app-tested: Photoshop CS6
+  download-links:
+   - link: <a href="https://www.deviantart.com/altback/art/Pencil-Brush-Toolset-Ver-1-0-Photoshop--557870056" rel="nofollow">Download from DeviantArt</a>
+   - link: <a href="https://gumroad.com/l/PencilBrushToolset" rel="nofollow">Download from Gumroad</a>
+  videotype: youtube
+  videoID: 3rd-tBfxP6Q
