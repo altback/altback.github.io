@@ -7,6 +7,8 @@
      sublink_addr: /csp-brushes.html
    - sublink_name: Tips and Tricks Videos
      sublink_addr: /tips-and-tricks-videos.html
+   - sublink_name: Textures and Patterns
+     sublink_addr: /textures-and-patterns.html     
 - name: News
   link: /news.html
   sublink: false
