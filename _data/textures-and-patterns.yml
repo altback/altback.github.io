@@ -1,0 +1,98 @@
+# Under each heading there is an option to embedd a video either from youtube or vimeo.
+# Use the value 'youtube' for youtube video or 'vimeo' for vimeo video in front of 'videotype:'. Note- values are case-sensitive
+# For example, for embeding a youtube video the code might look like below
+# videotype: youtube
+# After putting the appropriate value in front of 'videotype:'. We need to extract the 'VideoID:' from the video URL.
+# For example here is video URL of our sample video uploaded on youtube: https://www.youtube.com/watch?v=Ka8QpnRUAhA
+# It could be in the form of https://youtu.be/Ka8QpnRUAhA
+# VideoID in this case is Ka8QpnRUAhA
+# we just need to enter the videoID from the video link.
+- texture_title: Sketchbook Jacket Texture
+  texture_description: Sketchbook Jacket Texture from my new sketchbook. More details can be found on download page.
+  resource-type: Free
+  download-links:
+   - link: <a href="https://www.deviantart.com/altback/art/Sketchbook-Jacket-Texture-591209591" rel="nofollow">Download from DeviantArt</a>
+  texture_image: assets/images/textures-and-patterns/sketchbook_jacket_texture.png
+  texture_image_alttext: Sketchbook Jacket Texture by altback
+  texture_link: https://www.deviantart.com/altback/art/Sketchbook-Jacket-Texture-591209591
+
+- texture_title: Marker Texture Free
+  texture_description: This is a free texture. Image size is 3000 x 4500px.
+  resource-type: Free
+  download-links:
+   - link: <a href="https://www.deviantart.com/altback/art/MarkerTexture-Type1-Vertical-Strokes-Grey-541842933" rel="nofollow">Download from DeviantArt</a>
+  texture_image: assets/images/textures-and-patterns/marker_texture_free.jpg
+  texture_image_alttext: Marker Texture free by altback.
+  texture_link: https://www.deviantart.com/altback/art/MarkerTexture-Type1-Vertical-Strokes-Grey-541842933
+
+- texture_title: Brown Paper Texture
+  texture_description: Brown texture in size of 1920 x 1080 px. Resolution is 300dpi.
+  resource-type: Premium
+  download-links:
+   - link: <a href="https://www.deviantart.com/altback/art/Brown-Texture-750636775" rel="nofollow">Download from DeviantArt</a>
+  texture_image: assets/images/textures-and-patterns/brown_texture_by_altback.jpg
+  texture_image_alttext: Brown Paper or Old paper texture by altback
+  texture_link: https://www.deviantart.com/altback/art/Brown-Texture-750636775
+
+- texture_title: Pencil Texture Set
+  texture_description: Pencil textures on paper. A pack of 4 premium texture files. Resolution is 600dpi.
+  resource-type: Premium
+  download-links:
+   - link: <a href="https://www.deviantart.com/altback/art/Pencil-Texture-Set-545611372" rel="nofollow">Download from DeviantArt</a>
+  texture_image: assets/images/textures-and-patterns/pencil_texture_set_by_altback.jpg
+  texture_image_alttext: pencil texture set by altback
+  texture_link: https://www.deviantart.com/altback/art/Pencil-Texture-Set-545611372
+
+- texture_title: Ink Splatter Pack
+  texture_description: Pack contains a total of 10 ink splatters with a minimum size of (1000 x 1000) px to maximum size of (2000 x 2000) px @ 300dpi.
+  resource-type: Premium
+  download-links:
+   - link: <a href="https://www.deviantart.com/altback/art/Ink-Splatter-Pack-564949069" rel="nofollow">Download from DeviantArt</a>
+  texture_image: assets/images/textures-and-patterns/ink_splatter_pack_by_altback.jpg
+  texture_image_alttext: ink splatter by altback
+  texture_link: https://www.deviantart.com/altback/art/Ink-Splatter-Pack-564949069
+
+- texture_title: Dirty Watercolour Washes Texture Pack
+  texture_description: Dirty Watercolour Washes Texture Pack. The pack contains Hight resolution texture files in .TIF format. The details have been mention on the poster with preview of three files.
+  resource-type: Premium
+  download-links:
+   - link: <a href="https://www.deviantart.com/altback/art/Dirty-Watercolour-Washes-Texture-Pack-687233429" rel="nofollow">Download from DeviantArt</a>
+  texture_image: assets/images/textures-and-patterns/dirty_watercolour_washes_texture_pack.jpg
+  texture_image_alttext: dirty watercolour washes texture pack by altback
+  texture_link: https://www.deviantart.com/altback/art/Dirty-Watercolour-Washes-Texture-Pack-687233429
+
+- texture_title: Marker Texture, Horizontal Strokes
+  texture_description: Marker texture on paper.The texture file has horizontal strokes and the image size is 3000px x 4500px @ 300dpi.
+  resource-type: Premium
+  download-links:
+   - link: <a href="https://www.deviantart.com/altback/art/MarkerTexture-Type3-Horizontal-Strokes-Grey--541908272" rel="nofollow">Download from DeviantArt</a>
+  texture_image: assets/images/textures-and-patterns/marker_texture_horizontal_strokes.jpg
+  texture_image_alttext: Marker texture by altback
+  texture_link: https://www.deviantart.com/altback/art/MarkerTexture-Type3-Horizontal-Strokes-Grey--541908272
+
+- texture_title: Marker Texture, Vertical Strokes
+  texture_description: Marker texture on paper.The texture file has vertical strokes and the image size is 3000px x 4500px @ 300dpi.
+  resource-type: Premium
+  download-links:
+   - link: <a href="https://www.deviantart.com/altback/art/MarkerTexture-Type3-Vertical-Strokes-Grey--541901048" rel="nofollow">Download from DeviantArt</a>
+  texture_image: assets/images/textures-and-patterns/marker_texture_vertical_strokes.jpg
+  texture_image_alttext: Marker texture by altback
+  texture_link: https://www.deviantart.com/altback/art/MarkerTexture-Type3-Vertical-Strokes-Grey--541901048
+
+- texture_title: Old Velvet Paper Texture Set
+  texture_description: Old Velvet Paper Texture set contains three files. Image size is 2552 x 3496px, Resolution is 300dpi and the files are in TIFF format.
+  resource-type: Premium
+  download-links:
+   - link: <a href="https://www.deviantart.com/altback/art/Old-Velvet-Paper-Texture-Set-552485061" rel="nofollow">Download from DeviantArt</a>
+  texture_image: assets/images/textures-and-patterns/old_velvet_paper_texture_set_by_altback.jpg
+  texture_image_alttext: Old velvet paper texture set by altback
+  texture_link: https://www.deviantart.com/altback/art/Old-Velvet-Paper-Texture-Set-552485061
+
+- texture_title: Old Paper Texture Set
+  texture_description: Old Paper Texture set contains two files. Image size is 2552 x 3496px, Resolution is 300dpi and the files are in TIFF format.
+  resource-type: Premium
+  download-links:
+   - link: <a href="https://www.deviantart.com/altback/art/OldPaper-Texture-Set-552486490" rel="nofollow">Download from DeviantArt</a>
+  texture_image: assets/images/textures-and-patterns/old_paper_texture_set_by_altback.png
+  texture_image_alttext: Old paper texture set by altback
+  texture_link: https://www.deviantart.com/altback/art/OldPaper-Texture-Set-552486490
