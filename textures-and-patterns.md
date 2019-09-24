@@ -1,6 +1,6 @@
 ---
 layout: normal
-title: Brushes for Photoshop
+title: Textures and Patterns
 ---
  <div class="jumbotron jumbotron-fluid">
   <div class="container">
