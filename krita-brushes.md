@@ -17,15 +17,19 @@ title: Brushes for Krita
                 <h4 class="my-0 font-weight-normal text-title"><strong>{{ site.data.krita-brushes[count].videotitle }}</strong></h4>
               </div>
               <div class="card-body">
-                <div class="embed-responsive embed-responsive-16by9">
                  {% if site.data.krita-brushes[count].videotype == 'youtube' %}
+                 <div class="embed-responsive embed-responsive-16by9">
                    <iframe src="https://www.youtube.com/embed/{{ site.data.krita-brushes[count].videoID }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
                    {% elsif site.data.krita-brushes[count].videotype == 'vimeo' %}
+                  <div class="embed-responsive embed-responsive-16by9">
                    <iframe src="https://player.vimeo.com/video/{{ site.data.krita-brushes[count].videoID }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                   {% elsif site.data.krita-brushes[count].videotype == 'image' %}
-                   <a href="{{ site.data.krita-brushes[count].image_link }}"><img src="{{ site.data.krita-brushes[count].image_path }}" class="img-fluid" alt="{{ site.data.krita-brushes[count].image_alttext }}"></a>
+                  </div>
                  {% endif %}
-                </div>
+                
+                {% if site.data.krita-brushes[count].videotype == 'image' %}
+                   <a href="{{ site.data.krita-brushes[count].image-link }}"><img src="{{ site.data.krita-brushes[count].image-path }}" class="img-fluid" alt="{{ site.data.krita-brushes[count].image-alttext }}"></a>
+                {% endif %}
                 <h5><br>{{site.data.krita-brushes[count].videodescription }}</h5><br>
                 <p><span class="font-weight-bold">Resource type:</span> {{ site.data.krita-brushes[count].resource-type }}</p>
                 <p><span class="font-weight-bold">Application tested with:</span> {{ site.data.krita-brushes[count].app-tested }}</p>
@@ -52,13 +56,18 @@ title: Brushes for Krita
             <h4 class="my-0 font-weight-normal text-title"><strong>{{ site.data.krita-brushes[count].videotitle }}</strong></h4>
           </div>
           <div class="card-body">
-            <div class="embed-responsive embed-responsive-16by9">
-             {% if site.data.krita-brushes[count].videotype == 'youtube' %}
-               <iframe src="https://www.youtube.com/embed/{{ site.data.krita-brushes[count].videoID }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-               {% elsif site.data.krita-brushes[count].videotype == 'vimeo' %}
-               <iframe src="https://player.vimeo.com/video/{{ site.data.krita-brushes[count].videoID }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-             {% endif %}
-            </div>
+            {% if site.data.krita-brushes[count].videotype == 'youtube' %}
+                 <div class="embed-responsive embed-responsive-16by9">
+                   <iframe src="https://www.youtube.com/embed/{{ site.data.krita-brushes[count].videoID }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                   {% elsif site.data.krita-brushes[count].videotype == 'vimeo' %}
+                  <div class="embed-responsive embed-responsive-16by9">
+                   <iframe src="https://player.vimeo.com/video/{{ site.data.krita-brushes[count].videoID }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                 {% endif %}
+            {% if site.data.krita-brushes[count].videotype == 'image' %}
+                   <a href="{{ site.data.krita-brushes[count].image-link }}"><img src="{{ site.data.krita-brushes[count].image-path }}" class="img-fluid" alt="{{ site.data.krita-brushes[count].image-alttext }}"></a>
+            {% endif %}
             <h5><br>{{site.data.krita-brushes[count].videodescription }}</h5><br>
             <p><span class="font-weight-bold">Resource type:</span> {{ site.data.krita-brushes[count].resource-type }}</p>
             <p><span class="font-weight-bold">Application tested with:</span> {{ site.data.krita-brushes[count].app-tested }}</p>

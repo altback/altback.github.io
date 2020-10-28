@@ -8,13 +8,13 @@
 # VideoID in this case is Ka8QpnRUAhA
 # we just need to enter the videoID from the video link.
 - videotitle: Square Shape Brushes for KRITA by Altback
-  videodescription: "These brushes are helpful in creating graphical paintings. For the demo painting done with the brushes, watch the Wacom MobileStudio Pro 13-inch review on the youtube: https://youtu.be/vIK-oGALwfM"
+  videodescription: 'These brushes are helpful in creating graphical paintings. For the demo painting done with the brushes,<br> watch the <a href="https://youtu.be/vIK-oGALwfM">Wacom MobileStudio Pro 13-inch review on the youtube</a>.'
   resource-type: Free
   app-tested: "Krita-4.2.6, krita-4.2.8, krita-4.2.9"
   download-links:
    - link: <a href="https://www.deviantart.com/altback/art/Square-Shape-Brushes-for-KRITA-by-Altback-858594150" rel="nofollow">Download from DeviantArt</a>
    - link: <a href="https://gum.co/squareShapeBrushes-KRITA" rel="nofollow">Download from Gumroad</a>
-  videotype: 'image'
+  videotype: image
   videoID: NIL
   image-path: assets/images/krita-brushes/square-shape-brushes.jpeg
   image-link: https://gum.co/squareShapeBrushes-KRITA
