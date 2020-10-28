@@ -5,6 +5,8 @@
      sublink_addr: /photoshop-brushes.html
    - sublink_name: Brushes for Clip Studio Paint
      sublink_addr: /csp-brushes.html
+   - sublink_name: Brushes for Krita
+     sublink_addr: /krita-brushes.html
    - sublink_name: Tips and Tricks Videos
      sublink_addr: /tips-and-tricks-videos.html
    - sublink_name: Textures and Patterns
