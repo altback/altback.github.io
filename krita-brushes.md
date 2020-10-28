@@ -10,7 +10,7 @@ title: Brushes for Krita
     {% assign half = no_of_videos | divided_by: 2 %}
     {% for item in (1..half) %}
       {% if site.data.krita-brushes.first %}
-         <div class="card-deck mb-3 text-center card-padding">
+         <div class="card-deck mb-3 text-center card-padding" id="{{ site.data.krita-brushes[count].div-id }}">
            {% for j in (1..2) %}
             <div class="card mb-4 box-shadow">
               <div class="card-header">
@@ -50,7 +50,7 @@ title: Brushes for Krita
     {% endfor %}
     {% assign odd_videos = no_of_videos | modulo: 2 %}
     {% if odd_videos != 0 %}
-      <div class="card-deck mb-3 text-center">
+      <div class="card-deck mb-3 text-center" id="{{ site.data.krita-brushes[count].div-id }}">
         <div class="card mb-4 box-shadow">
           <div class="card-header">
             <h4 class="my-0 font-weight-normal text-title"><strong>{{ site.data.krita-brushes[count].videotitle }}</strong></h4>

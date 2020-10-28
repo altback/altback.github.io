@@ -9,6 +9,7 @@
 # we just need to enter the videoID from the video link.
 - videotitle: Square Shape Brushes for KRITA by Altback
   videodescription: 'These brushes are helpful in creating graphical paintings. For the demo painting done with the brushes,<br> watch the <a href="https://youtu.be/vIK-oGALwfM">Wacom MobileStudio Pro 13-inch review on the youtube</a>.'
+  div-id: square-shape-brushes
   resource-type: Free
   app-tested: "Krita-4.2.6, krita-4.2.8, krita-4.2.9"
   download-links:
