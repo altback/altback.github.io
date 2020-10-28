@@ -1,0 +1,21 @@
+# Under each heading there is an option to embedd a video either from youtube or vimeo.
+# Use the value 'youtube' for youtube video or 'vimeo' for vimeo video in front of 'videotype:'. Note- values are case-sensitive
+# For example, for embeding a youtube video the code might look like below
+# videotype: youtube
+# After putting the appropriate value in front of 'videotype:'. We need to extract the 'VideoID:' from the video URL.
+# For example here is video URL of our sample video uploaded on youtube: https://www.youtube.com/watch?v=Ka8QpnRUAhA
+# It could be in the form of https://youtu.be/Ka8QpnRUAhA
+# VideoID in this case is Ka8QpnRUAhA
+# we just need to enter the videoID from the video link.
+- videotitle: Square Shape Brushes for KRITA by Altback
+  videodescription: "These brushes are helpful in creating graphical paintings. For the demo painting done with the brushes, watch the Wacom MobileStudio Pro 13-inch review on the youtube: https://youtu.be/vIK-oGALwfM"
+  resource-type: Free
+  app-tested: "Krita-4.2.6, krita-4.2.8, krita-4.2.9"
+  download-links:
+   - link: <a href="https://www.deviantart.com/altback/art/Square-Shape-Brushes-for-KRITA-by-Altback-858594150" rel="nofollow">Download from DeviantArt</a>
+   - link: <a href="https://gum.co/squareShapeBrushes-KRITA" rel="nofollow">Download from Gumroad</a>
+  videotype: image
+  videoID: NIL
+  image-path: assets/images/krita-brushes/square-shape-brushes.jpeg
+  image-link: https://gum.co/squareShapeBrushes-KRITA
+  image-alttext: Square Shape Brushes for KRITA by Altback
