@@ -14,7 +14,7 @@
   download-links:
    - link: <a href="https://www.deviantart.com/altback/art/Square-Shape-Brushes-for-KRITA-by-Altback-858594150" rel="nofollow">Download from DeviantArt</a>
    - link: <a href="https://gum.co/squareShapeBrushes-KRITA" rel="nofollow">Download from Gumroad</a>
-  videotype: image
+  videotype: 'image'
   videoID: NIL
   image-path: assets/images/krita-brushes/square-shape-brushes.jpeg
   image-link: https://gum.co/squareShapeBrushes-KRITA
