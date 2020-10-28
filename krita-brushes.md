@@ -22,7 +22,7 @@ title: Brushes for Krita
                    <iframe src="https://www.youtube.com/embed/{{ site.data.krita-brushes[count].videoID }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                    {% elsif site.data.krita-brushes[count].videotype == 'vimeo' %}
                    <iframe src="https://player.vimeo.com/video/{{ site.data.krita-brushes[count].videoID }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                   {% elseif site.data.krita-brushes[count].videotype == 'image' %}
+                   {% elsif site.data.krita-brushes[count].videotype == 'image' %}
                    <a href="{{ site.data.krita-brushes[count].image_link }}"><img src="{{ site.data.krita-brushes[count].image_path }}" class="img-fluid" alt="{{ site.data.krita-brushes[count].image_alttext }}"></a>
                  {% endif %}
                 </div>
